@@ -1,0 +1,49 @@
+.staff-dash-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.dash-box-1{
+    width: 80%;
+    margin: 0 auto;
+    height: 650px;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.dash-box-2{
+    width: 80%;
+    margin: 0 auto;
+    height: 1200px;
+}
+
+/* div{
+    border: 1px solid red;
+    
+} */
+
+.stock-box{
+    border: 1px solid black;
+    height: 100px;
+    margin-bottom: 2%;
+}
+
+.color1{
+    background-color: #B96565;
+}
+
+.color2{
+    background-color: #679D8A;
+}
+
+.color3{
+    background-color: #D0BF64;
+}

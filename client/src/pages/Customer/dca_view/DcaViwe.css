@@ -1,0 +1,13 @@
+.dca-view-container{
+    width: 98%;
+    height: 540px;
+    margin: 0 auto;
+    padding: 0 1%;
+    overflow-y: scroll;
+}
+
+.dca-view-box{
+    height: 160px;
+    padding: 1% 2%;
+    
+}

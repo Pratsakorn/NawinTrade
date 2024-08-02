@@ -1,0 +1,54 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: #FFFFFF;  
+    z-index: 999;
+}
+
+.nt_logo{
+    font-size: larger;
+    color: #649D8A;
+    margin-right: 10px;
+}
+
+.menu{
+    font-size: medium;
+    color: #649D8A;
+    margin-right: 10px;
+}
+
+.profile_border{
+    background-color: #D9D9D9;
+}
+
+.user_border{
+    background-color: #649D8A;
+}
+
+.state{
+    background-color: #515151;
+}
+
+.state:hover{
+    transition: background-color 0.3s;
+}
+
+.drops{
+    width: 180px;
+    height: 160px;
+    position:absolute;
+    top:70px;
+    right:50px;
+    cursor: pointer;
+}
+
+.drops .drops-hand{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -16px;
+    right: 13px;
+    clip-path:  polygon(50% 0,100% 100%,0 100%);;
+}

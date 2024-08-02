@@ -1,0 +1,94 @@
+.PayHis-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 6%;
+}
+
+/* div{
+    border: 1px solid red;
+} */
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e4e4e4; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.PayHis-layout{
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+}
+
+.PayHis-box{
+    top: 180px;
+    left: 50%;
+    width: 95%;
+    transform: translate(-50%, 0);
+    height: 490px;
+    overflow-y: scroll;
+}
+
+.aggregate{
+    position: absolute;
+    top: 670px;
+    left: 50%;
+    width: 95%;
+    height: 100px;
+    transform: translate(-50%, 0);
+    background-color: #515151;
+}
+
+.PayHis-box .payment-box{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.PayHis-box .deposit{
+    border-left: 5px solid #b0dcc1;
+
+}
+
+.PayHis-box .withdraw{
+    border-left: 5px solid #d69797;
+
+}
+
+.theme1{
+    background-color: #515151;
+}
+
+.theme2{
+    background-color: #679D8A;
+}
+
+.theme-success{
+    color: #29B461;
+}
+
+.theme-danger{
+    color: #E13E3E;
+}
+
+.upper-box .text-box{
+    bottom: -15px;
+}

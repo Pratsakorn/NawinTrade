@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.loading-container >*{
+  width: 50px;
+}
+
+.colored-toast.swal2-icon-success {
+  background-color: #a5dc86 !important;
+}
+
+.colored-toast.swal2-icon-error {
+  background-color: #f27474 !important;
+}
+
+.colored-toast.swal2-icon-warning {
+  background-color: #f8bb86 !important;
+}
+
+.colored-toast.swal2-icon-info {
+  background-color: #3fc3ee !important;
+}
+
+.colored-toast.swal2-icon-question {
+  background-color: #87adbd !important;
+}
+
+.colored-toast .swal2-title {
+  color: white;
+}
+
+.colored-toast .swal2-close {
+  color: white;
+}
+
+.colored-toast .swal2-html-container {
+  color: white;
+}
+
+.bounce{
+  transform: scale(1);
+  animation-name: bounce-animation;
+  animation-duration: 0.2s;
+  
+}
+
+@keyframes bounce-animation {
+  from{transform: scale(0.96);}
+  to{transform: scale(1);}
+}

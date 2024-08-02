@@ -1,0 +1,31 @@
+.dca_container{
+    width:100%;
+    height: 100vh;
+    padding-top: 8%;
+    background-color: #FFFFFF;
+}
+
+
+.forms{
+    width: 70%;
+    height: 90%;
+}
+
+.ok{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.theme1{
+    background-color: #515151;
+}
+
+.theme3{
+    background-color: #D9D9D9;
+}
+
+.green{
+    background-color: #29B461;
+}

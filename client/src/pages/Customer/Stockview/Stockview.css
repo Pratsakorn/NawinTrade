@@ -1,0 +1,191 @@
+.loading-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.chart-loading-container{
+    width: 1000px;
+    height: 400px;
+}
+
+.chart-loading-container .load{
+    width: 20px;
+}
+
+.stock-container{
+    width: 100%;
+    height: 1250px;
+    background-color: #fff;
+}
+
+/* div{
+    border: 1px solid red;
+} */
+
+.navbar{
+    width: 100%;
+    height: 80px;
+}
+
+.stock-layout{
+    width: 100%;
+    padding: 5%;
+}
+
+.stock-search-container{
+    height: 100px;
+}   
+
+.stock-view-container{
+    padding: 3% 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+}
+
+.stock-view-container .stock-price{
+    color: black;
+}
+
+.stock-view-container .stock-growth{
+    color: rgb(34, 181, 34);
+}
+
+.stock-search-container .search-input{
+    width: 600px;
+    box-shadow: 3px 4px 4px 3px rgba(103, 103, 103, 0.2),0 3px 7px 0px rgba(0, 0, 0, 0.19);
+    
+}
+
+.stock-title{
+    color: black;
+}
+
+.stock-search-container .search-input input{
+    width: 600px;
+    height: 45px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    
+}
+
+
+.stock-history-graph{
+    width: 1100px;
+    height: 600px;
+}
+
+.stock-history-graph .date-select{
+    height: 100px;
+}
+
+.stock-history-graph .date-select .date-block{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.stock-history-graph .date-select .date-block > *{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;
+    color: #9e9e9e;
+    font-weight: 400;
+    border: 1px solid #9e9e9e;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stock-history-graph .date-select .date-block .date-input{
+    position: relative;
+    width: 140px;
+}
+
+.stock-history-graph .date-select .date-block .date-input p{
+    position: absolute;
+    top: -18px;
+    font-size: 12px;
+}
+
+.stock-history-graph .date-select .date-block .date-input input[type=date]{
+    color: #999;
+}
+
+.stock-box-description{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    
+}
+
+.stock-box-description .box{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 5% 9%;
+    box-shadow: 0 4px 4px 0 rgba(103, 103, 103, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stock-box-description .box >*{
+    margin: 10px 0;
+}
+
+.stock-box-description .box .line2{
+    margin-top: 0px;
+}
+
+.stock-box-description .box .line1{
+    margin-bottom: 1px;
+}
+
+.buysell-stock{
+    bottom: 0;
+    left: 30px;
+    position: absolute;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+.buysell-stock .buy{
+    width: 160px;
+    border-radius: 5px;
+    background-color: #29B461;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.buysell-stock .sell{
+    width: 160px;
+    border-radius: 5px;
+    background-color: #E13E3E;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.stock-chart-container{
+    height: 400px;
+}
+
+.brief-stock >*{
+    width: 200px;
+    height: 75px;
+    box-shadow: 0 4px 4px 0 rgba(103, 103, 103, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+

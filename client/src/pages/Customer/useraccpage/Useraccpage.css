@@ -1,0 +1,65 @@
+.acc_container{
+    width:100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin-top: 3%;
+    width: 70%;
+    height: 800px;
+}
+
+.batch{
+    position: absolute;
+    top: -2%;
+    left: 2%;
+}
+
+.circle-frame{
+    width: 260px;
+    height: 260px;
+}
+
+.circle-frame .circle-inner{
+    width: 230px;
+    height: 230px;
+}
+
+.ok{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.circle{
+    position: absolute;
+    top: -1%;
+    right: 2%;
+}
+
+.bar{
+    position: relative;
+    bottom: 4%;
+}
+
+.textbox{
+    width: 100%;
+    height: 50px;
+}
+
+.theme1{
+    background-color: #515151;
+}
+
+.theme2{
+    background-color: #649D8A;
+}
+
+.theme3{
+    background-color: #D9D9D9;
+}
